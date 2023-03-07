@@ -13,8 +13,8 @@ pipeline {
                 echo "Building.."
                 sh '''
                 cd myapp
-		apt install -y python3-pip
-                pip3 install -r requirements.txt
+		#apt install -y python3-pip
+                pip install -r requirements.txt
                 '''
             }
         }
